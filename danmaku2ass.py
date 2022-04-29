@@ -724,10 +724,10 @@ def export(func):
 def get_file(root_path, all_files=[]):
         files = os.listdir(root_path)
         for file in files:
-            if not os.path.isdir(root_path + '\\' + file):
-               all_files.append(root_path + '\\' + file)
+            if not os.path.isdir(root_path  + file):
+               all_files.append(root_path  + file)
             else:
-              get_file((root_path + '\\' + file), all_files)
+              get_file((root_path  + file), all_files)
         return all_files
 
 @export
