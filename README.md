@@ -1,7 +1,7 @@
 # danmu2ass
 弹幕转ass
 
-fork自danmu2ass-simply，原仓库代码的路径中有多余的'\'，无法在linux下正常使用，故开此仓库。
+fork自danmu2ass-simply，原仓库代码的路径中有多余的'\\'，无法在linux下正常使用，故开此仓库。
 
 简化了操作步骤
 
