@@ -8,7 +8,6 @@ fork自danmu2ass-simply，原仓库代码的路径中有多余的'\\'，无法�
 若文件夹结构如图
 ```
 --danmaku2ass.py
---danmaku2ass.exe
 --/xml文件
   |--a.xml
   |--/xmlwenjian
