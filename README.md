@@ -17,9 +17,11 @@ fork自danmu2ass-simply，原仓库代码的路径中有多余的'\\'，无法�
 
 在命令行中运行
 ```
-python danmaku2ass.py ./xml文件
+python danmaku2ass.py ./xml文件/
 ```
 可将 /xml文件 的文件夹（包括子文件夹）下的所有xml文件转为ass并保存在各自的xml目录下
+
+**请注意，这里文件夹参数最后的'/'不可省略**
 
 或者
 ```
